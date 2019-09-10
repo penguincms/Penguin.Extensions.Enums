@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Penguin.Extensions.Enums</name>
+    </assembly>
+    <members>
+        <member name="M:Penguin.Extensions.Enums.EnumExtensions.GetFlags``1">
+            <summary>
+            Attempts to retrive all flag combinations from an enum
+            </summary>
+            <typeparam name="T">The enum to search</typeparam>
+            <returns> all flag combinations</returns>
+        </member>
+    </members>
+</doc>
