@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/penguincms/Penguin.Extensions.Enums</PackageProjectUrl>
+    <Version>1.1.7</Version>
+    <Description>Enum extension methods. Currently only contains a method for finding flag values for a Flag enum</Description>
+  </PropertyGroup>
+  <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
+</Project>
