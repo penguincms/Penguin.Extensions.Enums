@@ -6,6 +6,7 @@
     <Description>Enum extension methods. Currently only contains a method for finding flag values for a Flag enum</Description>
     <AssemblyName>Penguin.Extensions.Enums</AssemblyName>
     <RootNamespace>Penguin.Extensions.Enums</RootNamespace>
+    <DocumentationFile>Penguin.Extensions.Enums.xml</DocumentationFile>
   </PropertyGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
