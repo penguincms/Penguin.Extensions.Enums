@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Extensions.Enums</PackageProjectUrl>
-    <Version>5.0.0</Version>
+    <Version>5.0.1</Version>
     <Description>Enum extension methods. Currently only contains a method for finding flag values for a Flag enum</Description>
     <AssemblyName>Penguin.Extensions.Enums</AssemblyName>
     <RootNamespace>Penguin.Extensions.Enums</RootNamespace>
