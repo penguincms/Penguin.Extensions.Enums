@@ -4,6 +4,7 @@ using System.Collections.Generic;
 namespace Penguin.Extensions.Enums
 {
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+
     public static class EnumExtensions
 #pragma warning restore CS1591 // Missing XML comment for publicly visible type or member
     {
@@ -16,7 +17,7 @@ namespace Penguin.Extensions.Enums
         /// <returns> all flag combinations</returns>
         public static List<T> GetFlags<T>() where T : Enum
         {
-            List<T> flags = new List<T>();
+            List<T> flags = new();
 
             foreach (T val in Enum.GetValues(typeof(T)))
             {
