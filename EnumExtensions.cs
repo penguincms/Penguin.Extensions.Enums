@@ -15,13 +15,13 @@ namespace Penguin.Extensions.Enums
         /// </summary>
         /// <typeparam name="T">The enum to search</typeparam>
         /// <returns> all flag combinations</returns>
-        public static List<T> GetFlags<T>() where T : Enum
+        public static IList<T> GetFlags<T>() where T : Enum
         {
             List<T> flags = new();
 
             foreach (T val in Enum.GetValues(typeof(T)))
             {
-                ulong keyVal = System.Convert.ToUInt64(val);
+                ulong keyVal = Convert.ToUInt64(val);
 
                 if ((keyVal & (keyVal - 1)) == 0)
                 {
